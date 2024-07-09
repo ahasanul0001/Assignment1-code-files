@@ -19,7 +19,6 @@
 .target .cardbox{
     display: flex;
     gap: 24px;
-    margin-bottom: 111px;
 }
 .target .card1{
     background: rgba(255, 76, 30, 0.05);
