@@ -1,0 +1,57 @@
+.target{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.target .content .title{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.target .content .text{
+    width: 852px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.target .cardbox{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 111px;
+}
+.target .card1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.target .card2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.target .card3{
+    background: rgba(255, 223, 0, 0.05);
+}
+.target .cardbox .title{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.target .cardbox .text{
+    margin-bottom: 24px;
+}
+.target .cardbox a{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+/* common style in target */
+.target .cardCommon{
+    width: 324px;
+    height: 259px;
+    border-radius: 16px;
+    padding: 40px;
+}
+/* ends */
