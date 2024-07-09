@@ -22,4 +22,10 @@
     border-radius: 16px;
     width: 1140px;
     height: 614px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video .videoContainer iframe{
+    border-radius: 16px;
 }
