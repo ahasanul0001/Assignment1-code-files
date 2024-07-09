@@ -1,0 +1,25 @@
+.video{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 150px;
+}
+.video .title{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.video .text{
+    width: 852px;
+    height: 52px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.video .videoContainer{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;    
+}
