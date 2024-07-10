@@ -69,7 +69,7 @@
     cursor: pointer;
     border-style: none;
 }
-.heroBtn .btnText{
+.heroBtn #btnText{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: "Azeret Mono", monospace;
@@ -78,4 +78,7 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+}
+html{
+    scroll-behavior: smooth;
 }
